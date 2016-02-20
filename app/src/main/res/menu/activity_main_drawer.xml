@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sear"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sell" />
+        <item
+            android:id="@+id/nav_invo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="inventory" />
+    </group>
+
+    <item android:title="About Developer ">
+        <menu>
+            <item
+                android:id="@+id/nav_meg"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Gmail" />
+            <item
+                android:id="@+id/nav_lin"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Linked IN" />
+        </menu>
+    </item>
+
+</menu>
